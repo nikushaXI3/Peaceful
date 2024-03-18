@@ -1,0 +1,53 @@
+{
+  "Name": "<color=#6cc314><b>P</b>eaceful</color>",
+  "Description": "Прекрасный Мирный режим\n<i>Интерфейс, Параметры, Запрещен урон, Общение, RP</i>",
+  "StartClientVersion": 532,
+  "MapFilter": {
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "Карты Мирного режима"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "BREAKING",
+        "DisplayName": "<size=15.4>Неразрушаемые блоки</size>",
+        "Default": false
+      },
+      {
+        "Name": "SPEED_X2",
+        "DisplayName": "<size=15.4>Быстрая стройка блоков</size>",
+        "Default": false
+      },
+      {
+        "Name": "BLUE_TEAM",
+        "DisplayName": "<size=15.4>Синие</size>",
+        "Default": true
+      },
+      {
+        "Name": "RED_TEAM",
+        "DisplayName": "<size=15.4>Красные</size>",
+        "Default": true
+      },
+      {
+        "Name": "BLUE_UNARMED",
+        "DisplayName": "<size=15.4>Синие безоружные</size>",
+        "Default": false
+      },
+      {
+        "Name": "RED_UNARMED",
+        "DisplayName": "<size=15.4>Красные безоружные</size>",
+        "Default": false
+      },
+      {
+        "Name": "PLS_FLIGHT",
+        "DisplayName": "<size=15.4>Полет игрокам</size>",
+        "Default": false
+      }
+    ]
+  }
+}
